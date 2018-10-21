@@ -22,10 +22,7 @@ PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Mi MIX 2S
 PRODUCT_MANUFACTURER := Xiaomi
 
-BUILD_FINGERPRINT := "Xiaomi/polaris/polaris:9/PKQ1.180729.001/V10.0.6.0.PDGMIFH:user/release-keys"
-
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="polaris-user 9 PKQ1.180729.001 V10.0.6.0.PDGMIFH release-keys" \
     PRODUCT_NAME="polaris" \
     TARGET_DEVICE="polaris"
 
