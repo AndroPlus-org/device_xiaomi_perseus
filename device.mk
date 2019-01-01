@@ -55,6 +55,15 @@ PRODUCT_PACKAGES += \
     SecureElement \
     Tag
 
+
+# Playground for GoogleCamera
+PRODUCT_PACKAGES += \
+    Playground
+
+# GoogleCamera
+PRODUCT_PACKAGES += \
+GoogleCameraMod
+
 # Wallpapers
 PRODUCT_PACKAGES += \
     WallpapersBReel2018
