@@ -9,6 +9,8 @@
 
 DEVICE_PATH := device/xiaomi/perseus
 
+BOARD_BUILD_SYSTEM_ROOT_IMAGE := true
+
 # Assert
 TARGET_OTA_ASSERT_DEVICE := perseus
 
