@@ -18,7 +18,7 @@ TARGET_OTA_ASSERT_DEVICE := perseus
 TARGET_FACE_UNLOCK_CAMERA_ID := 1
 
 # Kernel
-TARGET_KERNEL_CONFIG := perseus_defconfig
+TARGET_KERNEL_CONFIG := perseus_user_defconfig
 
 # NFC
 TARGET_USES_NQ_NFC := true
