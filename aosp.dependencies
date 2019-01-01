@@ -5,9 +5,10 @@
     "branch":      "pie-pepsy"
   },
   {
-    "repository":  "kernel_xiaomi_sdm845",
+    "remote":      "github",
+    "repository":  "AndroPlus-org/android_kernel_xiaomi_sdm845",
     "target_path": "kernel/xiaomi/sdm845",
-    "branch":      "pie-pepsy"
+    "branch":      "perseus-p"
   },
   {
     "remote":      "github",

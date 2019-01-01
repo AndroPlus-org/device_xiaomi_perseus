@@ -63,6 +63,6 @@ void vendor_load_properties()
         return;
 
     // fingerprint
-    property_override("ro.build.description", "polaris-user 8.0.0 OPR1.170623.032 V9.5.19.0.ODGMIFA release-keys");
+    property_override("ro.build.description", "perseus-user 9 PKQ1.180729.001 8.11.6 release-keys");
     property_override_dual("ro.build.fingerprint", "ro.vendor.build.fingerprint", "google/walleye/walleye:8.1.0/OPM1.171019.011/4448085:user/release-keys");
 }
