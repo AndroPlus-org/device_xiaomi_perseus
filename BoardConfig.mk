@@ -9,6 +9,7 @@
 
 DEVICE_PATH := device/xiaomi/perseus
 
+# Root
 BOARD_BUILD_SYSTEM_ROOT_IMAGE := true
 
 # Assert
@@ -16,6 +17,9 @@ TARGET_OTA_ASSERT_DEVICE := perseus
 
 # IR Camera
 TARGET_FACE_UNLOCK_CAMERA_ID := 1
+
+# Camera
+USE_CAMERA_STUB := true
 
 # Kernel
 TARGET_KERNEL_CONFIG := perseus_user_defconfig
@@ -26,9 +30,20 @@ TARGET_USES_NQ_NFC := true
 # Inherit from the proprietary version
 -include vendor/xiaomi/perseus/BoardConfigVendor.mk
 
+# Recovery
+TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.qcom
+BOARD_USES_RECOVERY_AS_BOOT := true
+TARGET_NO_RECOVERY := true
+
 # Sepolicy
 BOARD_PLAT_PRIVATE_SEPOLICY_DIR += $(DEVICE_PATH)/sepolicy/private
 
 # Vendor init
 TARGET_INIT_VENDOR_LIB := libinit_perseus
 TARGET_RECOVERY_DEVICE_MODULES := libinit_perseus
+
+# Treble
+BOARD_VNDK_RUNTIME_DISABLE := false
+
+# Enable real time lockscreen charging current values
+BOARD_GLOBAL_CFLAGS += -DBATTERY_REAL_INFO

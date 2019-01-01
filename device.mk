@@ -55,7 +55,6 @@ PRODUCT_PACKAGES += \
     SecureElement \
     Tag
 
-
 # Playground for GoogleCamera
 PRODUCT_PACKAGES += \
     Playground
