@@ -1,19 +1,20 @@
 [
   {
-    "repository":  "device_xiaomi_sdm845-common",
+    "remote":      "github",
+    "repository":  "AndroPlus-org/device_xiaomi_sdm845-common",
     "target_path": "device/xiaomi/sdm845-common",
-    "branch":      "pie-pepsy"
+    "branch":      "p9.0"
   },
   {
     "remote":      "github",
     "repository":  "AndroPlus-org/android_kernel_xiaomi_sdm845",
     "target_path": "kernel/xiaomi/sdm845",
-    "branch":      "perseus-p"
+    "branch":      "p9.0"
   },
   
   {
     "remote":      "github",
-    "repository":  "PsyMan47/vendor_xiaomi",
+    "repository":  "AndroPlus-org/vendor_xiaomi",
     "target_path": "vendor/xiaomi",
     "branch":      "pie-sdm845"
   },
