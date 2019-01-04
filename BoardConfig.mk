@@ -22,6 +22,7 @@ TARGET_FACE_UNLOCK_CAMERA_ID := 1
 USE_CAMERA_STUB := true
 
 # Kernel
+TARGET_NO_KERNEL := true
 TARGET_KERNEL_CONFIG := perseus_user_defconfig
 
 # NFC
