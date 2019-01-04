@@ -6,17 +6,16 @@
 
 $(call inherit-product, device/xiaomi/perseus/device.mk)
 
-# Inherit some common AOSP stuff.
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+# Inherit some common havoc stuff.
+$(call inherit-product, vendor/havoc/config/common.mk)
 
-# Inherit some common PixelExperience stuff.
 TARGET_GAPPS_ARCH := arm64
 TARGET_BOOT_ANIMATION_RES := 1080
 #USTOM_BUILD_TYPE := OFFICIAL
 TARGET_INCLUDE_STOCK_ARCORE := true 
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := aosp_perseus
+PRODUCT_NAME := havoc_perseus
 PRODUCT_DEVICE := perseus
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Mi MIX 3
@@ -27,3 +26,8 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     TARGET_DEVICE="perseus"
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
+
+-include vendor/havoc/build/core/config.mk
+
+# GApps
+include vendor/gapps/config.mk
