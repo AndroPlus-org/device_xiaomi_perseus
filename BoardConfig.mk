@@ -23,6 +23,8 @@ USE_CAMERA_STUB := true
 
 # Kernel
 TARGET_KERNEL_CONFIG := perseus_user_defconfig
+BOARD_KERNEL_SEPARATED_DTBO := true
+BOARD_KERNEL_CMDLINE += enforcing=0
 
 # NFC
 TARGET_USES_NQ_NFC := true
