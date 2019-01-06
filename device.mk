@@ -61,7 +61,7 @@ PRODUCT_PACKAGES += \
 
 # GoogleCamera
 PRODUCT_PACKAGES += \
-GoogleCameraMod
+    GoogleCameraMod
 
 # Wallpapers
 PRODUCT_PACKAGES += \

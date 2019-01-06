@@ -7,7 +7,9 @@
 $(call inherit-product, device/xiaomi/perseus/device.mk)
 
 # Inherit some common AOSP stuff.
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+$(call inherit-product, vendor/pixeldust/configs/pixeldust_phone.mk)
+$(call inherit-product, vendor/pixeldust/configs/system_optional.mk)
+$(call inherit-product, vendor/googleapps/googleapps.mk)
 
 # Inherit some common PixelExperience stuff.
 TARGET_GAPPS_ARCH := arm64
