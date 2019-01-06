@@ -34,8 +34,6 @@ TARGET_USES_NQ_NFC := true
 
 # Recovery
 TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.qcom
-BOARD_USES_RECOVERY_AS_BOOT := true
-TARGET_NO_RECOVERY := true
 
 # Sepolicy
 BOARD_PLAT_PRIVATE_SEPOLICY_DIR += $(DEVICE_PATH)/sepolicy/private
