@@ -47,8 +47,5 @@ TARGET_RECOVERY_DEVICE_MODULES := libinit_perseus
 # Treble
 BOARD_VNDK_RUNTIME_DISABLE := false
 
-# Enable real time lockscreen charging current values
-BOARD_GLOBAL_CFLAGS += -DBATTERY_REAL_INFO
-
 # Display
 TARGET_HAS_HDR_DISPLAY := true
