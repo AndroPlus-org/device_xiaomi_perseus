@@ -323,5 +323,7 @@
 
    <!-- Is the battery LED intrusive? Used to decide if there should be a disable option -->
    <bool name="config_intrusiveBatteryLed">true</bool>
-   
+    
+    <!-- Whether the device has fingeprint sensor or not -->
+    <bool name="config_hasFingerprintSensor">true</bool>
 </resources>
