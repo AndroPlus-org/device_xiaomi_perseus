@@ -314,4 +314,6 @@
         <item>/system/lib64/libRSCpuRef.so</item>
         <item>/system/lib64/libblas.so</item>
     </string-array>
+
+    <item name="config_screenAspectRatio" format="float" type="dimen">2.16666666667</item>
 </resources>
