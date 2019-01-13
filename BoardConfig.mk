@@ -49,7 +49,7 @@ BOARD_VNDK_RUNTIME_DISABLE := false
 BOARD_GLOBAL_CFLAGS += -DBATTERY_REAL_INFO
 
 # Display
-TARGET_HAS_HDR_DISPLAY := true
+#TARGET_HAS_HDR_DISPLAY := true
 
 # Define as phone to select Google Dialer
 IS_PHONE := true
