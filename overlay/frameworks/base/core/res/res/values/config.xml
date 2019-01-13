@@ -329,4 +329,7 @@
     
     <!-- Whether the device has fingeprint sensor or not -->
     <bool name="config_hasFingerprintSensor">true</bool>
+
+    <!-- Component name for default assistant on this device -->
+	<string name="config_defaultAssistantComponentName">com.google.android.googlequicksearchbox/com.google.android.voiceinteraction.GsaVoiceInteractionService</string>
 </resources>
