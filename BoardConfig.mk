@@ -51,8 +51,5 @@ BOARD_GLOBAL_CFLAGS += -DBATTERY_REAL_INFO
 # Display
 #TARGET_HAS_HDR_DISPLAY := true
 
-# Define as phone to select Google Dialer
-IS_PHONE := true
-
 # Dual Wi-Fi interface
 WIFI_HIDL_FEATURE_DUAL_INTERFACE := true
