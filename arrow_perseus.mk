@@ -27,3 +27,5 @@ PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 # GApps
 include vendor/gapps/config.mk
+
+include vendor/vendor_pixel-addon/config.mk
