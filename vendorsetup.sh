@@ -14,6 +14,6 @@
 # limitations under the License.
 #
 
-add_lunch_combo omni_dipper-eng
-add_lunch_combo omni_dipper-userdebug
+add_lunch_combo omni_perseus-eng
+add_lunch_combo omni_perseus-userdebug
 

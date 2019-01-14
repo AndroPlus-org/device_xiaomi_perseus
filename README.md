@@ -1,60 +1,24 @@
-# android_device_xiaomi_dipper
-For building TWRP for Xiaomi Mi MI 8
+# android_device_xiaomi_perseus
+For building TWRP for Xiaomi Mi MIX 3
 
-TWRP device tree for Xiaomi MI 8
+TWRP device tree for Xiaomi MIX 3
 
+The Xiaomi Mi MIX 3 (codenamed _"perseus"_) is a high-end smartphone from Xiaomi.
 
+Xiaomi Mi MIX 3 was announced on the 25th of October 2018 and released on the 1st of November 2018.
 
-
-下载地址：持续更新
-
-
-[Release](https://github.com/geoleonsh/android_device_xiaomi_dipper/releases)
-
-专注更新，稳定版本。对认为稳定的MIUI版本，提供去除限制的services.jar下载，此文件位于/system/framework/目录下，
-
-替换后可以删除MIUI系统内置的应用商、系统更新器和安全中心，而不会造成卡米。
-
-
-Xiaomi Mi MI 8 was announced and released in June 2018.
-
-## Device specifications
-
-| Device       | Xiaomi Mi 8                               |
-| -----------: | :---------------------------------------------- |
-| SoC          | Qualcomm SDM845 Snapdragon 845                  |
-| CPU          | 8x Qualcomm® Kryo™ 385 up to 2.8GHz             |
-| GPU          | Adreno 630                                      |
-| Memory       | 6GB / 8GM RAM (LPDDR4X)                         |
-| Shipped Android version | 8.0                                  |
-| Storage      | 64GB / 128GB / 256GB UFS 2.1 flash storage      |
-| Battery      | Non-removable Li-Po 3400 mAh                    |
-| Dimensions   | 154.9 x 74.8 x 7.6 mm                           |
-| Display      | 2160 x 1080 (18:9), 6.21 inch                   |
-| Rear camera 1 | 12MP, f/1.8 Dual LED flash                     |
-| Rear camera 2 | 12MP, f/2.4                                    |
-| Front camera | 5MP, 1-micron pixels, f/2.2 1080p 30 fps video  |
 
 ## Device picture
 
-![Xiaomi Mi 8](https://i1.mifile.cn/f/i/2018/mi8/summary/index1.jpg)
+![Xiaomi Mi MIX 3](https://i.imgur.com/dLpqgDx.jpg)
 
 ## Features
 
 Works:
 
-- ADB
-- Decryption of /data
-- Screen brightness settings
-- Now UI is very smooth (thanks to TWRP fix 16d831bee5a660f5ac6da0d8fff2b3ec4697d663)
-- Vibration on touch (see https://gerrit.omnirom.org/#/c/android_bootable_recovery/+/31021/)
-- Correct screenshot color (see https://gerrit.omnirom.org/#/c/android_bootable_recovery/+/31042/)
-Finally execute these:
+- Nothing, it doesn't post yet...
 
-```
-export ALLOW_MISSING_DEPENDENCIES=true
-. build/envsetup.sh
-lunch omni_dipper-eng 
-mka recoveryimage
-```
+Not working:
 
+- Everything at the moment, feel free to contribute
+- Probably even more
