@@ -665,12 +665,44 @@
         <item>2000.0</item>
         <item>4000.0</item>
     </array>
-    
+
     <array name="config_minimumBrightnessCurveNits">
         <item>0.0</item>
         <item>50.0</item>
         <item>90.0</item>
     </array>
+
+    <integer-array name="config_dynamicHysteresisBrightLevels">
+        <item>200</item>
+        <item>200</item>
+        <item>200</item>
+        <item>200</item>
+        <item>200</item>
+        <item>200</item>
+        <item>200</item>
+        <item>200</item>
+    </integer-array>
+    
+    <integer-array name="config_dynamicHysteresisDarkLevels">
+        <item>800</item>
+        <item>800</item>
+        <item>800</item>
+        <item>800</item>
+        <item>800</item>
+        <item>500</item>
+        <item>500</item>
+        <item>500</item>
+    </integer-array>
+
+    <integer-array name="config_dynamicHysteresisLuxLevels">
+        <item>2</item>
+        <item>10</item>
+        <item>30</item>
+        <item>100</item>
+        <item>800</item>
+        <item>2000</item>
+        <item>4000</item>
+    </integer-array>
 
      <!-- Power Management: Specifies whether to decouple the auto-suspend state of the
          device from the display on/off state.
