@@ -664,7 +664,7 @@
     <bool name="config_dozeAfterScreenOff">true</bool>
     <bool name="config_dozeAfterScreenOffByDefault">true</bool>
     <bool name="config_dozeAlwaysOnDisplayAvailable">true</bool>
-    <bool name="config_enableBurnInProtection">true</bool>
+    <bool name="config_enableBurnInProtection">false</bool>
 
     <!-- Component name of the default wallpaper. This will be ImageWallpaper if not
          specified -->

@@ -33,6 +33,6 @@
     <bool name="doze_pickup_performs_proximity_check">false</bool>
 
     <!-- Enabke Burn in protection -->
-    <bool name="config_statusBarBurnInProtection">true</bool>
+    <bool name="config_statusBarBurnInProtection">false</bool>
 </resources>
 
