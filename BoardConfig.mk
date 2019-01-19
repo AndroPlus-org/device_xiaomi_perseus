@@ -22,6 +22,7 @@ TARGET_FACE_UNLOCK_CAMERA_ID := 1
 USE_CAMERA_STUB := true
 
 # Kernel
+TARGET_KERNEL_SOURCE := kernel/xiaomi/sdm845
 TARGET_KERNEL_CONFIG := perseus_user_defconfig
 BOARD_KERNEL_SEPARATED_DTBO := true
 BOARD_KERNEL_CMDLINE += enforcing=0
