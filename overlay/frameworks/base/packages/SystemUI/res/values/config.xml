@@ -31,5 +31,8 @@
 
     <!-- Doze: can we assume the pickup sensor includes a proximity check? -->
     <bool name="doze_pickup_performs_proximity_check">false</bool>
+
+    <!-- Date format for the always on display.  -->
+    <item type="string" name="system_ui_aod_date_pattern">EEEMMMd</item>
 </resources>
 
