@@ -34,5 +34,8 @@
 
     <!-- Enabke Burn in protection -->
     <bool name="config_statusBarBurnInProtection">false</bool>
+
+    <!-- Date format for the always on display.  -->
+    <item type="string" name="system_ui_aod_date_pattern">EEEMMMd</item>
 </resources>
 
