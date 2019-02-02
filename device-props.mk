@@ -49,6 +49,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     dalvik.vm.boot-dex2oat-threads=8 \
     dalvik.vm.dex2oat-threads=8
 
+#Assistant
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.opa.eligible_device=true 
+
 # Display features
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.displayfeature.histogram.enable=false \
