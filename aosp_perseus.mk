@@ -26,4 +26,5 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 # GApps
+IS_PHONE := true
 include vendor/gapps/config.mk
