@@ -10,7 +10,7 @@ $(call inherit-product, device/xiaomi/perseus/device.mk)
 $(call inherit-product, vendor/aosp/common.mk)
 
 TARGET_GAPPS_ARCH := arm64
-TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_BOOT_ANIMATION_RES := 2140
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := aosp_perseus
