@@ -36,6 +36,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.sf.lcd_density=440 \
     debug.sf.hw=1 \
+    debug.composition.type=gpu \
     dev.pm.dyn_samplingrate=1 \
     debug.hwui.use_buffer_age=false \
     sdm.debug.rotator_downscale=1
