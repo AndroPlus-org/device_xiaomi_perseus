@@ -1,2 +1,2 @@
-add_lunch_combo aosp_polaris-userdebug
-add_lunch_combo aosp_polaris-eng
+add_lunch_combo aosp_perseus-userdebug
+add_lunch_combo aosp_perseus-eng
