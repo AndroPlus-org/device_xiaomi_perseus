@@ -67,7 +67,3 @@ GoogleCameraMod
 # Wallpapers
 PRODUCT_PACKAGES += \
     WallpapersBReel2018
-
-# Telephony
-PRODUCT_PACKAGES += \
-    qti-telephony-common
