@@ -56,7 +56,7 @@
     <integer name="config_screenBrightnessDim">8</integer>
 
     <integer name="config_screenBrightnessDoze">34</integer>
-    <bool name="config_allowAutoBrightnessWhileDozing">false</bool>
+    <bool name="config_allowAutoBrightnessWhileDozing">true</bool>
     
     <!-- Array of light sensor LUX values to define our levels for auto backlight brightness support.
          The N entries of this array define N  1 zones as follows:
